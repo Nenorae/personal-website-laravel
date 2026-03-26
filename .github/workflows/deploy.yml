@@ -38,5 +38,6 @@ jobs:
           **/node_modules/**
           **/tests/**
           **/storage/logs/**
+          **/vendor/**
           **/.github/**
           README.md
