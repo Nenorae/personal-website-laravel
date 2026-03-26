@@ -19,8 +19,7 @@ jobs:
         php-version: '8.2' # Menyesuaikan dengan versi PHP di hosting Radnet Anda
 
     - name: Install Dependencies
-      run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist --optimize-autoloader
-
+      run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist --optimize-autoloader --ignore-platform-reqs
     - name: Install NPM Dependencies & Build
       run: |
         npm install
